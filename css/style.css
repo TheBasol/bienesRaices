@@ -147,7 +147,6 @@ p{
     .venta{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,auto);
-        object-fit: cover;
     }
 }
 
@@ -214,8 +213,10 @@ p{
     .footer .contenedor{
         display: grid;
         grid-template-columns: 30% 20% 2fr;
-        grid-column-gap: 2rem;
+        grid-gap: 2rem;
+
     }
+
 }
 
 .footer .widget h3{
@@ -230,8 +231,27 @@ p{
     margin-bottom: 1rem;
 }
 
+
 .footer .contenedor-casas{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 1rem;
+}
+
+
+.footer .casa{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+.footer .casa p{
+    margin: 0;
+}
+
+.copyright{
+    background-color: var(--oscuro);
+    margin: 3rem 0 0 0;
+    text-align: center;
+    padding: var(--padding);
 }
