@@ -122,6 +122,11 @@ p{
 .contenido-nosotros{
     display: grid;
     justify-content: center;
+    padding: 1rem;
+}
+
+.contenedor h2{
+    margin-left: 2rem;
 }
 
 .venta{
@@ -209,6 +214,10 @@ p{
     color: var(--claro);
 }
 
+.footer .contenedor{
+    padding: 0 1.4rem;
+}
+
 @media screen and (min-width:768px){
     .footer .contenedor{
         display: grid;
@@ -216,7 +225,6 @@ p{
         grid-gap: 2rem;
 
     }
-
 }
 
 .footer .widget h3{
